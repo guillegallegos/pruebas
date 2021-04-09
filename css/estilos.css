@@ -1,5 +1,13 @@
 
 
+/*selector Universal - le pega a todas las etiquetas*/
+
+*{
+
+    margin: 3; /*espaciado externo del elemento*/
+    padding: 3; /*espaciadointerno del elemento*/
+
+}
 /*  sintaxis de una regla o un estilo CSS 
 selector  {
            propiedad : valor ;
@@ -14,6 +22,8 @@ background-color: rgb(49, 109, 238);
 h1{
 
 text-align: center;
+color: rgb(184, 229, 240);
+font-size: 30px;
 
 }
 
@@ -35,3 +45,46 @@ width: 100%;
 
 }
 
+/* selector de clase class : se define con un punto y se puede aplicar la cantidad de veces que neceitemos , sin importal la etiqueta*/
+
+.parrafoPrincipal{
+
+    font-size: 20px;
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.centrarpie{
+
+text-align: center;
+
+}
+
+/*selector ID se puede usar solo una vez*/
+
+#header{
+border-radius: 20px;
+overflow: auto;
+
+
+}
+
+/*maqueta*/
+
+#contenedor{
+
+    width: 80%; /*80% de area visible - viewport*/
+    margin-left: 10%;
+}
+
+/*Box Model - Modelo de caja
+top -arriba
+bottom - abajo
+left - izq
+rigth - dere
+
+margin / border / padding - trabajan en los 4 lados 
+*/
